@@ -13,4 +13,6 @@
     <string name="keypad_zero">0</string>
     <string name="keypad_clear">CA</string>
     <string name="keypad_plus">+</string>
+
+    <string name="hello">안녕하세요!</string>
 </resources>

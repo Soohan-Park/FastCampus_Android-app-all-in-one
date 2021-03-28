@@ -11,20 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MyTheme">
-        <activity android:name=".ContextActivity"></activity>
-        <activity android:name=".ResourceActivity" /> <!-- android:theme="@style/Theme.FastCampus_Kotlin"> -->
-        <activity android:name=".NullSafetyActivity" />
-        <activity android:name=".FragmentActivity" />
-        <activity android:name=".InternetOpen" />
-        <activity android:name=".Intent_b" />
-        <activity android:name=".Intent_a" />
-        <activity android:name=".Calculator">
+        <activity android:name=".PhoneBookRecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ContactInfoActivity" />
+        <activity android:name=".ContactsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AddViewActivity" />
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".ThreadActivity" />
+        <activity android:name=".ContextActivity" />
+        <activity android:name=".ResourceActivity" /> <!-- android:theme="@style/Theme.FastCampus_Kotlin"> -->
+        <activity android:name=".NullSafetyActivity" />
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".InternetOpen" />
+        <activity android:name=".Intent_b" />
+        <activity android:name=".Intent_a" />
+        <activity android:name=".Calculator" />
         <activity android:name=".Listener" />
         <activity android:name=".MainActivity" />
     </application>

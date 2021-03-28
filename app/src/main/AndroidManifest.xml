@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fastcampus_kotlin">
+    <!-- 이 앱이 인터넷을 사용할 수 있도록 권한을 줌!! -->
+    <permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"

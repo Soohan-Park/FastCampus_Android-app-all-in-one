@@ -15,4 +15,7 @@
     <string name="keypad_plus">+</string>
 
     <string name="hello">안녕하세요!</string>
+
+    <!-- Contacts Practice -->
+    <string name="contacts_listTitle">전화번호부</string>
 </resources>

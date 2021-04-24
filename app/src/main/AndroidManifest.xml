@@ -4,6 +4,8 @@
     <!-- 이 앱이 인터넷을 사용할 수 있도록 권한을 줌!! -->
     <permission android:name="android.permission.INTERNET" />
 
+    <permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MyTheme">
-        <activity android:name=".PhoneBookRecyclerViewActivity"></activity>
+        <activity android:name=".PermissionActivity"></activity>
+        <activity android:name=".RetrofitActivity" />
+        <activity android:name=".NetworkActivity" />
+        <activity android:name=".AsyncActivity" />
+        <activity android:name=".RealmActivity" />
+        <activity android:name=".SharedPreferenceActivity" />
+        <activity android:name=".TabPager2Activity" />
+        <activity android:name=".TabPagerActivity" />
+        <activity android:name=".PhoneBookRecyclerViewActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ListViewActivity" />
         <activity android:name=".ContactInfoActivity" />

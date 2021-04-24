@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FastCampus_Kotlin</string>
+
+    <string name="keypad_one">1</string>
+    <string name="keypad_two">2</string>
+    <string name="keypad_three">3</string>
+    <string name="keypad_four">4</string>
+    <string name="keypad_five">5</string>
+    <string name="keypad_six">6</string>
+    <string name="keypad_seven">7</string>
+    <string name="keypad_eight">8</string>
+    <string name="keypad_nine">9</string>
+    <string name="keypad_zero">0</string>
+    <string name="keypad_clear">CA</string>
+    <string name="keypad_plus">+</string>
+
+    <string name="hello">안녕하세요!</string>
+
+    <!-- Contacts Practice -->
+    <string name="contacts_listTitle">전화번호부</string>
 </resources>

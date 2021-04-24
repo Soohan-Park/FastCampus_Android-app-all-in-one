@@ -1,0 +1,33 @@
+18. Network
+
+Database <-------> Server <-------> Client(App, Web, ...)
+
+- Local Database의 한계
+    - 동기화가 어렵다
+    - 상호작용이 불가능하다
+
+- Server와 통신하는 방법
+    - 해당 URL로 요청한다
+    - 인증 정보를 보낸다
+    - JSON 형식을 사용해서 데이터를 보낸다 (JSON: Javascript에서 객체를 만들 때 사용하는 표현식)
+
+- JSON Parsing
+    - JSON을 코틀린이나 자바가 이해할 수 있도록 변형하는 과정
+
+- Serializable (직렬화)
+    - JAVA 시스템 내부에서 사용되는 Object를 외부에서 사용할 수 있도록 Byte 형태로 데이터를 가공하는 것
+
+- Request Type
+    - GET       : 정보 요청
+    - POST      : 정보 추가 요청
+    - DELETE    : 정보 삭제 요청
+    - PUT       : 정보 수정 요청
+
+- Status Code
+    - 200번대: 보통 처리가 잘 되었을 때 오는 코드
+    - 400번대: 보통 Client 쪽에서 잘못 되었을 때 오는 코드
+    - 500번대: 보통 Server 쪽에서 잘못 되었을 때 오는 코드
+
+- Library
+    - Volly
+    - Retrofit
